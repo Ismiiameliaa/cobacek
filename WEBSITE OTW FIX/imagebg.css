@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+}
+.container{
+    width: 100%;
+    /* memusatkan konten */
+    margin: auto;
+}
+body{
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    /* margin: 0; */
+}
+.contbg{
+    width: 100%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    align-items: center;
+}
+.imagebg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 300px;
+    background: url('BUKIT MADO.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.imagebg .text-sci{
+    width: 58%;
+    height: 100%;
+    background: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: black;
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.text-sci h2{
+    font-size: 40px;
+    line-height: 1;
+}
+.text-sci p{
+    font-size: 16px;
+    margin: 20px 0;
+}
+.imagebg .logreg-box{
+    width: calc(100% -58%);
+    height: 100%;
+    top: 0;
+    right: 0;
+    position: absolute;
+    border-radius: 5px;
+    box-shadow: 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 10px;
+}
+.logreg-box .form-box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+}    
+.form-box1 h2{
+    font-size: 25px;
+    text-align: center;
+}
+.form-box1 .input-box{
+    width: 100%;
+    height: 100%;
+    margin: 30px 0;
+    border-bottom: 1px solid #e4e4e4;
+    position: relative;
+}
+.input-box input{
+    width: 100%;
+    height: 80%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding-right: 28px;
+}
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+.form-box1 .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin: -15px 0 15px;
+}
+.remember-forgot label input{
+    accent-color: #fff;
+    margin-right: 3px;
+}
+.remember-forgot a{
+    color: #e4e4e4;
+    text-decoration: none;
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+.btn{
+    width: 100%;
+    height: 30px;
+    background: gold;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    cursor: pointer;
+    font-size: 16px;
+    color: navy;
+    font-weight: 600;
+}
+.form-box1 .login-register{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 25px;
+    font-weight: 500;
+}
+.login-register p a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+.login-register p a:hover{
+    text-decoration: underline;
+}
