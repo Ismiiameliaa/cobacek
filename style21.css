@@ -1,0 +1,120 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 70%;
+    background-color: white;
+    margin: auto;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between
+}
+.nav{
+    display: flex;
+    background-color: rgb(216, 213, 213);
+    align-items: center;
+    margin: 0px;
+}
+ul li{
+    display: inline;
+}
+ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+a:hover{
+    background-color: gold;
+}
+.main{
+    width: 100%;
+    height: 350px;
+    display: flex;
+}
+.content1{
+    flex-grow: 2;
+}
+.box{
+    width: 100%;
+    height: 350px;
+    margin: 0;
+    border: 1px solid black;
+}
+.box img{
+    width: 100%; /* Memastikan gambar menyesuaikan dengan lebar box */
+    height: 350px; /* Mempertahankan rasio aspek gambar */
+}
+.content2{
+    flex-grow: 1;
+    border: 1px solid black;
+}
+.reviews{
+    font-family: 'Courier New', Courier, monospace;
+    float: right;
+}
+.circle1 {
+    width: 100px; /* Sesuaikan ukuran lingkaran */
+    height: 100px; /* Sesuaikan ukuran lingkaran */
+    overflow: hidden; /* Menghapus bagian gambar yang keluar */
+    border-radius: 50%; /* Membuat bentuk lingkaran */
+    display: flex; /* Menjaga gambar tetap di tengah */
+    justify-content: center; /* Mengatur konten di tengah */
+    align-items: center; /* Mengatur konten di tengah secara vertikal */
+    background-color: white;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.text1{
+    text-align: justify;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 18px;
+    max-width: 400px;
+}
+.circle2{
+    width: 100px; /* Sesuaikan ukuran lingkaran */
+    height: 100px; /* Sesuaikan ukuran lingkaran */
+    overflow: hidden; /* Menghapus bagian gambar yang keluar */
+    border-radius: 50%; /* Membuat bentuk lingkaran */
+    display: flex; /* Menjaga gambar tetap di tengah */
+    justify-content: center; /* Mengatur konten di tengah */
+    align-items: center; /* Mengatur konten di tengah secara vertikal */
+    background-color: white;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px
+}
+.text2{
+    max-width: 400px;
+    text-align: justify;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+.about{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer{
+    background-color: gold;
+    padding-top: 20px;
+}
+.footer h4, h5{
+    padding-left: 100px;
+    margin-bottom: 5px;
+}
+.footer h6{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.icon1, .icon2{
+    display: inline-flex;
+}
+.clear{
+    clear: left; */
+}
